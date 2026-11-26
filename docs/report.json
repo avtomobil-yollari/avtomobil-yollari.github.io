@@ -1,0 +1,40 @@
+{
+ "probe": {
+  "lex.uz": {
+   "san": [
+    "*.lex.uz",
+    "lex.uz"
+   ],
+   "subject": "CN=*.lex.uz",
+   "notAfter": "2027-01-07 23:59:59",
+   "https": 200
+  },
+  "mc.uz": {
+   "san": [
+    "*.ahost.uz",
+    "ahost.uz"
+   ],
+   "subject": "CN=*.ahost.uz",
+   "notAfter": "2026-12-18 23:59:59",
+   "https": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'mc.uz\\', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: C"
+  },
+  "www.mc.uz": {
+   "san": [
+    "*.ahost.uz",
+    "ahost.uz"
+   ],
+   "subject": "CN=*.ahost.uz",
+   "notAfter": "2026-12-18 23:59:59",
+   "https": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.mc.uz\\', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SS"
+  }
+ },
+ "lex": {
+  "shnq-2-05-02-23": 451670,
+  "shnq-2-05-03-22": 19676,
+  "shnq-2-07-06-24": 104014,
+  "o-rq-117": 71884,
+  "vmq-901-son": 253694,
+  "3904-son": 32637
+ },
+ "mc": {}
+}
