@@ -28,23 +28,6 @@
    "https": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.mc.uz\\', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SS"
   }
  },
- "lex": {
-  "shnq-2-05-01-23": 769057,
-  "shnq-2-05-03-22": 1336259,
-  "shnk-2-05-03-22-qo-shimcha-2024": 20346,
-  "shnq-2-05-04-21": 1129443,
-  "shnq-2-05-05-24": 89280,
-  "shnq-2-05-09-22": 317909,
-  "shnq-2-07-01-23": 37979,
-  "shnq-2-01-20-24": 196474,
-  "shnk-3-06-07-23": 206944,
-  "shnq-2-05-08-21": 509977,
-  "shnq-2-05-07-24": 214638,
-  "shnq-2-01-03-26": 643474,
-  "shnq-2-02-01-24": 1295747,
-  "shnq-2-03-14-22": 298151,
-  "shnq-1-03-03-23": 122873,
-  "shnq-2-07-02-22": 139893
- },
+ "lex": {},
  "mc": {}
 }
