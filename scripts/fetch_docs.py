@@ -46,7 +46,12 @@ def lex(docid, url):
         if "/img/" in src or src.endswith(".svg"): i.decompose(); continue
         full = urljoin(url, src)
         try:
-            b = requests.get(full, headers=UA, timeout=60).content
+            b = b""
+            for att in range(4):
+                b = requests.get(full, headers=UA, timeout=60).content
+                if b[:4] in (b"\x89PNG", b"GIF8") or b[:2] == b"\xff\xd8" or b[:2] == b"BM": break
+                b = b""; time.sleep(5 * (att + 1))
+            if not b: raise RuntimeError("rasm emas")
             ext = os.path.splitext(src)[1][:5] or ".png"
             name = hashlib.md5(b).hexdigest()[:12] + ext
             open(os.path.join(IMGD, name), "wb").write(b)
