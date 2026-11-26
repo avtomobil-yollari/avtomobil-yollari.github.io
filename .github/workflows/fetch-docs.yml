@@ -1,0 +1,24 @@
+name: Normativlarni yig'ish
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/fetch_docs.py", "scripts/fetch.run"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests beautifulsoup4 cryptography
+      - run: python scripts/fetch_docs.py
+      - run: |
+          git config user.name "avtomobil-yollari bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A docs data/docs.json
+          git commit -m "Normativlar: lex.uz/mc.uz dan yangilandi" || echo "o'zgarish yo'q"
+          git push
