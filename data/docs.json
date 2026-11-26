@@ -39,6 +39,11 @@
   "title": "Темир йўллар. Лойиҳалаш талаблари",
   "links": [
    [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7182157",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_12548685977524.pdf",
     0
@@ -55,14 +60,9 @@
   "title": "Кўприклар ва қувурлар",
   "links": [
    [
-    "Toʻliq matn (saytda)",
-    "docs/shnq-2-05-03-22.html",
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6130301",
     1
-   ],
-   [
-    "Elektron matn",
-    "https://lex.uz/docs/6794603",
-    0
    ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
@@ -83,6 +83,11 @@
   "title": "Кўприклар ва қувурлар (23.01.2024 даги қўшимча)",
   "links": [
    [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6794603",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_3178750932321.pdf",
     0
@@ -100,6 +105,11 @@
   "title": "Метрополитенлар",
   "links": [
    [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7271123",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_31712383609426.pdf",
     0
@@ -115,6 +125,11 @@
   "code": "ŞNQ 2.05.05-24",
   "title": "Темир йўл ва автомобиль йўллари туннеллари",
   "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7179741",
+    1
+   ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_92446032402266.pdf",
@@ -148,6 +163,11 @@
   "title": "Трамвай ва троллейбус йўллари",
   "links": [
    [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6989351",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_8142898983041.pdf",
     0
@@ -163,6 +183,11 @@
   "code": "ŞNQ 2.07.01-23",
   "title": "Аҳоли пунктларининг ҳудудларини ривожлантириш ва қуришни шаҳарсозлик жиҳатидан режалаштириш",
   "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7954120",
+    1
+   ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_5529673272344.pdf",
@@ -270,6 +295,11 @@
   "code": "ŞNQ 2.01.20-24",
   "title": "Сейсмик ҳудудларда транспорт иншоотлари қурилиши",
   "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7082708",
+    1
+   ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_8697454765358.pdf",
@@ -591,6 +621,11 @@
   "code": "ŞNK 3.06.07-23",
   "title": "Кўприклар ва қувурлар. Текшириш, синаш ва диагностика қилиш қоидалари",
   "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6579145",
+    1
+   ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_91857022384671.pdf",
@@ -1087,6 +1122,119 @@
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_91256817139487.pdf",
     0
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-05-08-21",
+  "code": "ŞNQ 2.05.08-21",
+  "orig": "SHNQ 2.05.08-21",
+  "title": "SHNQ 2.05.08-21 “Aerodromlar”",
+  "cats": [
+   "aerodrom"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7510223",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-05-07-24",
+  "code": "ŞNQ 2.05.07-24",
+  "orig": "SHNQ 2.05.07-24",
+  "title": "SHNQ 2.05.07-24 “Avtoturargohlar”",
+  "cats": [
+   "shahar"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7396504",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-01-03-26",
+  "code": "ŞNQ 2.01.03-26",
+  "orig": "SHNQ 2.01.03-26",
+  "title": "SHNQ 2.01.03-26 “Seysmik hududlarda qurilish”",
+  "cats": [
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-8540314",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-02-01-24",
+  "code": "ŞNQ 2.02.01-24",
+  "orig": "SHNQ 2.02.01-24",
+  "title": "SHNQ 2.02.01-24 “Bino va inshootlarning zaminlari”",
+  "cats": [
+   "konstruksiya",
+   "qidiruv"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7480344",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-03-14-22",
+  "code": "ŞNQ 2.03.14-22",
+  "orig": "SHNQ 2.03.14-22",
+  "title": "SHNQ 2.03.14-22 “Kompozit polimer armaturali beton konstruksiyalar”",
+  "cats": [
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-7483020",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-1-03-03-23",
+  "code": "ŞNQ 1.03.03-23",
+  "orig": "SHNQ 1.03.03-23",
+  "title": "SHNQ 1.03.03-23 “Qurilish obyektlarini loyihalashtirish”",
+  "cats": [
+   "tashkil"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6905975",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "shnq-2-07-02-22",
+  "code": "ŞNQ 2.07.02-22",
+  "orig": "SHNQ 2.07.02-22",
+  "title": "SHNQ 2.07.02-22 “Qurilish obyektlarini nogironligi boʻlgan shaxslar hamda keksalar ehtiyojini inobatga olgan holda loyihalashtirish”",
+  "cats": [
+   "shahar"
+  ],
+  "links": [
+   [
+    "Elektron matn (lex.uz)",
+    "https://lex.uz/docs/-6311402",
+    1
    ]
   ]
  }
