@@ -2,7 +2,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const BASE = window.SITE_BASE || "";
-const VER = "202611261930";
+const VER = "202611261935";
 const D = {};
 async function load(n) {
   if (!D[n]) D[n] = await fetch(`${BASE}data/${n}.json?v=${VER}`).then(r => r.json()).catch(() => null);
@@ -214,7 +214,7 @@ async function libPage(sel, sec) {
      <div class="tiles sm" style="margin-top:26px">${[["all", "Barchasi", "library", IMG.lib]].concat(SECTIONS).map(s => s[0] === "all" ? `<a class="tile${cat === "all" ? " on" : ""}" href="#/kutubxona" style="background-image:linear-gradient(180deg,rgba(5,11,22,.15),rgba(5,11,22,.92)),url('${px(IMG.lib, 640)}')"><span class="tic">${I("library")}</span><b>Barchasi</b><small>${docs.length} ta hujjat</small></a>` : secTile(s, docs.filter(d => (d.cats || []).includes(s[0])).length, cat === s[0])).join("")}</div>
      <div class="tools"><div class="search">${I("search")}<input class="inp" id="lq" placeholder="Qidirish: 2.05.02, ko'prik, geodeziya, smeta..."></div></div>
      <div class="grid g2" id="ll" style="margin-top:18px"></div>
-     <p class="note" style="margin-top:16px">Hujjat nomlari rasmiy ro'yxatdagi asl yozuvda berilgan. Ba'zi mc.uz havolalarida brauzer sertifikat ogohlantirishini ko'rsatishi mumkin — «Davom etish» ni tanlang.</p></div>`;
+     <p class="note" style="margin-top:16px">Hujjat nomlari rasmiy ro'yxatdagi asl yozuvda berilgan. Hujjatlarning yuklab olinadigan nusxalari bosqichma-bosqich shu saytning o'ziga joylanmoqda.</p></div>`;
 }
 
 /* ---------- Kalkulyatorlar ---------- */
