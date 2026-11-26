@@ -2,7 +2,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const BASE = window.SITE_BASE || "";
-const VER = "202611262030";
+const VER = "202611262045";
 const D = {};
 async function load(n) {
   if (!D[n]) D[n] = await fetch(`${BASE}data/${n}.json?v=${VER}`).then(r => r.json()).catch(() => null);
@@ -89,7 +89,7 @@ const secTile = (s, n, on) => `<a class="tile${on ? " on" : ""}" href="#/yonalis
 async function home() {
   const [docs, news, posts] = await Promise.all([load("docs"), load("news"), load("posts")]);
   const PP = ((posts && posts.posts) || []).filter(p => p.text && p.text.length > 60);
-  const S = [["library", "Normativ kutubxona", `${docs ? docs.length : 60}+ ta ŞNQ, QMQ va me'yoriy hujjat — rasmiy PDF bilan`, "kutubxona", IMG.lib],
+  const S = [["library", "Normativ kutubxona", `${docs ? docs.length : 60}+ ta ŞNQ, QMQ va me'yoriy hujjat — toʻliq matni bilan`, "kutubxona", IMG.lib],
     ["calc", "Kalkulyatorlar", "Asfalt hajmi, yo'l toifasi, qiyalik, zichlash koeffitsienti", "kalkulyatorlar", IMG.calc],
     ["news", "Yangiliklar", "Normativ o'zgarishlar va dunyo yo'l qurilishi", "yangiliklar", IMG.news],
     ["megaphone", "Kanal postlari", "Telegram kanaldagi barcha postlar arxivi", "postlar", IMG.posts],
@@ -209,7 +209,7 @@ async function libPage(sel, sec) {
       if (sel) { const el = document.getElementById(sel); if (el) { el.classList.add("hl"); setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 60); } sel = null; } };
     $("#lq").oninput = draw; draw();
   });
-  return pageHead(SEC[cat] ? "Yo'nalish" : "Normativ kutubxona", title, SEC[cat] ? `${docs.filter(d => (d.cats || []).includes(cat)).length} ta hujjat. Rasmiy PDF va amaldagi tahrirlar.` : `${docs.length} ta hujjat soha bo'yicha yo'nalishlarga ajratilgan — rasmiy PDF bilan.`, img) +
+  return pageHead(SEC[cat] ? "Yo'nalish" : "Normativ kutubxona", title, SEC[cat] ? `${docs.filter(d => (d.cats || []).includes(cat)).length} ta hujjat. Toʻliq matn va amaldagi tahrirlar.` : `${docs.length} ta hujjat soha bo'yicha yo'nalishlarga ajratilgan, koʻplarining toʻliq matni saytda.`, img) +
     `<div class="wrap">
      <div class="tiles sm" style="margin-top:26px">${[["all", "Barchasi", "library", IMG.lib]].concat(SECTIONS).map(s => s[0] === "all" ? `<a class="tile${cat === "all" ? " on" : ""}" href="#/kutubxona" style="background-image:linear-gradient(180deg,rgba(5,11,22,.15),rgba(5,11,22,.92)),url('${px(IMG.lib, 640)}')"><span class="tic">${I("library")}</span><b>Barchasi</b><small>${docs.length} ta hujjat</small></a>` : secTile(s, docs.filter(d => (d.cats || []).includes(s[0])).length, cat === s[0])).join("")}</div>
      <div class="tools"><div class="search">${I("search")}<input class="inp" id="lq" placeholder="Qidirish: 2.05.02, ko'prik, geodeziya, smeta..."></div></div>
