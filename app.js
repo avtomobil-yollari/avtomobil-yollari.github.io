@@ -2,7 +2,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const BASE = window.SITE_BASE || "";
-const VER = "202611261918";
+const VER = "202611261930";
 const D = {};
 async function load(n) {
   if (!D[n]) D[n] = await fetch(`${BASE}data/${n}.json?v=${VER}`).then(r => r.json()).catch(() => null);
@@ -94,7 +94,7 @@ async function home() {
     ["news", "Yangiliklar", "Normativ o'zgarishlar va dunyo yo'l qurilishi", "yangiliklar", IMG.news],
     ["megaphone", "Kanal postlari", "Telegram kanaldagi barcha postlar arxivi", "postlar", IMG.posts],
     ["check", "Testlar", "ShNQ va texnologiya bo'yicha bilimingizni sinang", "testlar", IMG.quiz],
-    ["book", "Lug'at", "Yo'l qurilishi atamalari — sodda tushuntirish", "lugat", IMG.gloss]];
+    ["book", "Atamalar (terminlar)", "Yo'l qurilishi atamalari — sodda tushuntirish", "lugat", IMG.gloss]];
   return `
   <section class="hero"><div class="bg" style="background-image:url('${px(IMG.hero)}')"></div><div class="wrap">
     <span class="kicker">Yo'l muhandislari portali</span>
@@ -264,13 +264,13 @@ async function quizPage() {
       <p class="exp">${esc(q.e)}</p></div>`).join("")}</div></div>`;
 }
 
-/* ---------- Lug'at ---------- */
+/* ---------- Atamalar ---------- */
 async function glossPage() {
   const G = (await load("glossary")) || [];
   setTimeout(() => { const q = $("#gq"); const draw = () => { const s = q.value.toLowerCase();
     $("#gl").innerHTML = G.filter(g => !s || fold(g.term + g.text).includes(fold(s))).map(g => `<div><dt>${esc(g.term)}</dt><dd>${esc(g.text)}</dd></div>`).join(""); };
     q.oninput = draw; draw(); });
-  return pageHead("Atamalar", "Lug'at", "Yo'l loyihalash va qurilishida ishlatiladigan asosiy atamalar — qisqa va sodda.", IMG.gloss) +
+  return pageHead("Atamalar", "Atamalar (terminlar)", "Yo'l loyihalash va qurilishida ishlatiladigan asosiy atamalar — qisqa va sodda.", IMG.gloss) +
     `<div class="wrap"><div class="tools"><div class="search">${I("search")}<input class="inp" id="gq" placeholder="Atamani qidirish..."></div></div><dl class="gl" id="gl" style="margin-top:16px"></dl></div>`;
 }
 
@@ -288,7 +288,7 @@ function aboutPage() {
 
 /* ---------- Router ---------- */
 const ROUTES = { "": home, yonalish: (sub) => libPage(null, sub), yangiliklar: newsPage, postlar: postsPage, kutubxona: (sub) => libPage(sub), kalkulyatorlar: calcPage, testlar: quizPage, lugat: glossPage, haqida: aboutPage };
-const TITLES = { yonalish: "Yo'nalish", yangiliklar: "Yangiliklar", postlar: "Postlar", kutubxona: "Normativlar", kalkulyatorlar: "Kalkulyatorlar", testlar: "Testlar", lugat: "Lug'at", haqida: "Biz haqimizda" };
+const TITLES = { yonalish: "Yo'nalish", yangiliklar: "Yangiliklar", postlar: "Postlar", kutubxona: "Normativlar", kalkulyatorlar: "Kalkulyatorlar", testlar: "Testlar", lugat: "Atamalar", haqida: "Biz haqimizda" };
 async function route() {
   let h = location.hash.replace(/^#\/?/, "");
   if (h && !h.includes("/") && !ROUTES[h]) h = "kutubxona/" + h;   // eski havolalar: #shnq-2-05-02-23
