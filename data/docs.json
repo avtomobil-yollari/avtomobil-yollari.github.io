@@ -172,6 +172,11 @@
   "title": "Аэродромлар",
   "links": [
    [
+    "PDF yuklab olish",
+    "fayllar/qmq-2-05-08-97.pdf",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_44841831662043.pdf",
     0
@@ -646,6 +651,11 @@
   "title": "Қурилиши тугалланган обектларни фойдаланишга қабул қилиш. Асосий холатлар",
   "links": [
    [
+    "PDF yuklab olish",
+    "fayllar/shnk-3-01-04-19.pdf",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/uploads/mcuz_9035279942583.pdf",
     0
@@ -689,6 +699,11 @@
   "title": "Автомобил йўллари",
   "links": [
    [
+    "PDF yuklab olish",
+    "fayllar/shnk-3-06-03-08.pdf",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     0
@@ -704,6 +719,11 @@
   "code": "ŞNK 3.06.04-14",
   "title": "Мосты и трубы",
   "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnk-3-06-04-14.pdf",
+    1
+   ],
    [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
@@ -1115,6 +1135,11 @@
   ],
   "links": [
    [
+    "PDF yuklab olish",
+    "fayllar/shnk-3-06-06-07.pdf",
+    1
+   ],
+   [
     "Rasmiy portal (mc.uz — sertifikat xatosi)",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     0
@@ -1317,5 +1342,767 @@
     0
    ]
   ]
+ },
+ {
+  "id": "shnq-3-06-03-21",
+  "code": "ŞNQ 3.06.03-21",
+  "orig": "ШНҚ 3.06.03-21",
+  "title": "Автомобиль йўллари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-3-06-03-21.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "qr-06-03-23",
+  "code": "QR 06.03-23",
+  "orig": "ҚР 06.03-23",
+  "title": "“Автомобиль йўллари” қурилиш регламенти",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/qr-06-03-23.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-2-05-02-07",
+  "code": "ŞNQ 2.05.02-07",
+  "orig": "ШНҚ 2.05.02-07",
+  "title": "Автомобиль йўллари (эски таҳрир)",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-2-05-02-07.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-2-05-11-19",
+  "code": "ŞNQ 2.05.11-19",
+  "orig": "ШНҚ 2.05.11-19",
+  "title": "Фермер хўжаликлари, бошқа қишлоқ хўжалик корхона ва ташкилотларидаги ички хўжалик автомобиль йўллари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-2-05-11-19.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "qmq-2-05-11-95",
+  "code": "QMQ 2.05.11-95",
+  "orig": "КМК 2.05.11-95",
+  "title": "Жамоа хўжаликларидаги ва бошқа қишлоқ хўжалик корхоналаридаги ички хўжалик автомобиль йўллари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/qmq-2-05-11-95.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "qmq-2-05-05-96",
+  "code": "QMQ 2.05.05-96",
+  "orig": "КМК 2.05.05-96",
+  "title": "Темир йўл ва автомобиль йўллари тоннеллари (ўзбек ва рус тилида)",
+  "cats": [
+   "tunnellar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/qmq-2-05-05-96.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-3-06-07-08",
+  "code": "ŞNQ 3.06.07-08",
+  "orig": "ШНҚ 3.06.07-08",
+  "title": "Кўприклар ва қувурлар. Текшириш ва синаш қоидалари",
+  "cats": [
+   "kopriklar",
+   "otkazgichlar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-3-06-07-08.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-2-10-09-10",
+  "code": "ŞNQ 2.10.09-10",
+  "orig": "ШНҚ 2.10.09-10",
+  "title": "Автомобил йўллари ва йўл сервиси объектларини жойлаштириш учун ажратиладиган ер майдонлари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-2-10-09-10.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-1-03-07-10",
+  "code": "ŞNQ 1.03.07-10",
+  "orig": "ШНҚ 1.03.07-10",
+  "title": "Қурилишда муаллифлик ва техник назорат тўғрисида низом",
+  "cats": [
+   "tashkil"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-1-03-07-10.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-4-01-16-09",
+  "code": "ŞNQ 4.01.16-09",
+  "orig": "ШНҚ 4.01.16-09",
+  "title": "Қурилиш баҳосини шартномавий жорий нархларда аниқлаш қоидалари",
+  "cats": [
+   "smeta"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-4-01-16-09.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-2-07-01-03",
+  "code": "ŞNQ 2.07.01-03",
+  "orig": "ШНҚ 2.07.01-03",
+  "title": "Шаҳар ва қишлоқ аҳоли пунктлари ҳудудларини ривожлантириш ва қуришни режалаштириш (эски таҳрир)",
+  "cats": [
+   "shahar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-2-07-01-03.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "shnq-3-06-03-08-shma",
+  "code": "ŞNQ 3.06.03-08 (S ilova)",
+  "orig": "ШНҚ 3.06.03-08",
+  "title": "Приложение С. Устройство щебеночно-мастичных асфальтобетонных покрытий",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/shnq-3-06-03-08-shma.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "ichki-yollar-2020",
+  "code": "Yöriqnoma (2020)",
+  "orig": "—",
+  "title": "Ички йўллар йўриқномаси (14.12.2020)",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/ichki-yollar-2020.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-143-21",
+  "code": "IQN 143-21",
+  "orig": "ИҚН 143-21",
+  "title": "Базальт толасидан тайёрланган арматура, геосетка, армасетка, фибро ҳамда полипропилен ва полиэфир материалларни қўллаш",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-143-21.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-05-2011",
+  "code": "IQN 05-2011",
+  "orig": "ИКН 05-2011",
+  "title": "Автомобиль йўлларининг ҳолатини ташхис қилиш",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-05-2011.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-67-2011",
+  "code": "IQN 67-2011",
+  "orig": "ИҚН 67-2011",
+  "title": "Йўл хўжалигида лойиҳалаш ва қуриш муддати нормалари бўйича йўриқнома",
+  "cats": [
+   "tashkil"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-67-2011.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-63-11",
+  "code": "IQN 63-11",
+  "orig": "ИКН 63-11",
+  "title": "Йўл қопламалари фойдаланиш даври, емирилиши",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-63-11.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-128-2018",
+  "code": "IQN 128-2018",
+  "orig": "ИҚН 128-2018",
+  "title": "Идоравий қурилиш нормалари ИҚН 128-2018",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-128-2018.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-46-21",
+  "code": "IQN 46-21",
+  "orig": "ИҚН 46-21",
+  "title": "Қаттиқ бўлмаган йўл қопламаларини лойиҳалаш бўйича йўриқнома",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-46-21.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-02-10",
+  "code": "IQN 02-10",
+  "orig": "ИҚН 02-10",
+  "title": "Умумий фойдаланиладиган автомобиль йўлларини сақлаш ишларининг вақт меъёрлари",
+  "cats": [
+   "yollar",
+   "smeta"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-02-10.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-46-08",
+  "code": "MQN 46-08",
+  "orig": "МҚН 46-08",
+  "title": "Нобикр йўл тўшамасини лойиҳалаш бўйича йўриқнома",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-46-08.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-52-2008",
+  "code": "MQN 52-2008",
+  "orig": "МКН 52-2008",
+  "title": "Нобикр йўл тўшамалари мустаҳкамлигини баҳолаш",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-52-2008.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-37-2007",
+  "code": "MQN 37-2007",
+  "orig": "МҚН 37-2007",
+  "title": "Ҳаракатни ташкил этиш ва йўл ишларини олиб бориш жойларини тўсиш бўйича қўлланма",
+  "cats": [
+   "yollar",
+   "tashkil"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-37-2007.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-10-2008",
+  "code": "MQN 10-2008",
+  "orig": "МҚН 10-2008",
+  "title": "Автомобиль йўлларини жорий таъмирлаш ва сақлаш даражасини баҳолаш бўйича йўриқнома",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-10-2008.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-33-2007",
+  "code": "MQN 33-2007",
+  "orig": "МҚН 33-2007",
+  "title": "Автомобиль йўлларини кўкаламзорлаштириш ва ободонлаштириш бўйича кўрсатмалар",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-33-2007.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mshn-33-2008",
+  "code": "MŞN 33-2008",
+  "orig": "МШН 33-2008",
+  "title": "Автомобил йўлларини кўкаламзорлаштириш ва ободонлаштириш бўйича йўриқнома",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mshn-33-2008.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-41-08",
+  "code": "MQN 41-08",
+  "orig": "МҚН 41-08",
+  "title": "Нобикир йўл тўшама ва қопламалари ҳамда сиртқи ишлов қатламларининг таъмирлашлараро хизмат муддатлари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-41-08.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-43-2008",
+  "code": "MQN 43-2008",
+  "orig": "МКН 43-2008",
+  "title": "Автомобиль йўллар цементбетон қопламалар қуриш бўйича йўриқнома",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-43-2008.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-44-2008",
+  "code": "MQN 44-2008",
+  "orig": "МҚН 44-2008",
+  "title": "Бикир йўл тўшамаларини лойиҳалаш бўйича йўриқнома",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-44-2008.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mqn-93-2009",
+  "code": "MQN 93-2009",
+  "orig": "МҚН 93-2009",
+  "title": "Йўл асфальтбетон қопламаларини қуриш бўйича йўриқнома",
+  "cats": [
+   "yollar",
+   "konstruksiya"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mqn-93-2009.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "iqn-14-2010",
+  "code": "IQN 14-2010",
+  "orig": "ИҚН 14-2010",
+  "title": "Умумий фойдаланишдаги автомобиль йўлларининг транспорт-эксплуатацион кўрсаткичлари",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/iqn-14-2010.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mshn-19-2004",
+  "code": "MŞN 19-2004",
+  "orig": "МШН 19-2004",
+  "title": "Автомобиль йўлларини қуриш ва таъмирлаш",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mshn-19-2004.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mshn-24-05",
+  "code": "MŞN 24-05",
+  "orig": "МШН 24-05",
+  "title": "1-сон ўзгариш: «Автомобиль йўлларини таъмирлаш ва сақлашнинг техник қоидалари»",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mshn-24-05.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mshn-38-2005",
+  "code": "MŞN 38-2005",
+  "orig": "МШН 38-2005",
+  "title": "Правила устройства дорожных покрытий с шероховатой поверхностью",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mshn-38-2005.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "mshn-05-2005",
+  "code": "MŞN 05-2005",
+  "orig": "МШН 05-2005",
+  "title": "Автомобил йўллари ҳолатини ташхис қилиш ва баҳолаш қоидаси",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/mshn-05-2005.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "ozdst-3419-2022",
+  "code": "OʻzDSt 3419:2022",
+  "orig": "O‘z DSt 3419:2022",
+  "title": "Йўл чизиқлари. Таснифлаш. Техник талаблар",
+  "cats": [
+   "yollar",
+   "shahar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/ozdst-3419-2022.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "ozdst-svetofor-2020",
+  "code": "OʻzDSt (svetoforlar, 2020)",
+  "orig": "O`z DSt :2020",
+  "title": "Йўл светофорлари. Турлари ва асосий параметрлари. Умумий техник талаблар",
+  "cats": [
+   "shahar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/ozdst-svetofor-2020.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "ozdst-3196-2017",
+  "code": "OʻzDSt 3196:2017",
+  "orig": "O’z DSt 3196:2017",
+  "title": "Остановки автобусные на автомобильных дорогах",
+  "cats": [
+   "yollar",
+   "shahar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/ozdst-3196-2017.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "gost-21-207-2013",
+  "code": "GOST 21.207-2013",
+  "orig": "ГОСТ 21.207-2013",
+  "title": "СПДС. Условные графические обозначения на чертежах автомобильных дорог",
+  "cats": [
+   "yollar"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/gost-21-207-2013.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "gost-21-302-2013",
+  "code": "GOST 21.302-2013",
+  "orig": "ГОСТ 21.302-2013",
+  "title": "СПДС. Условные графические обозначения в документации по инженерно-геологическим изысканиям",
+  "cats": [
+   "qidiruv"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/gost-21-302-2013.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "gost-32731-2014",
+  "code": "GOST 32731-2014",
+  "orig": "ГОСТ 32731-2014",
+  "title": "Дороги автомобильные общего пользования. Требования к проведению строительного контроля",
+  "cats": [
+   "yollar",
+   "tashkil"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/gost-32731-2014.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "gost-32756-2014",
+  "code": "GOST 32756-2014",
+  "orig": "ГОСТ 32756-2014",
+  "title": "Дороги автомобильные общего пользования. Требования к проведению промежуточной приемки выполненных работ",
+  "cats": [
+   "yollar",
+   "tashkil"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/gost-32756-2014.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "vmq-710-2024",
+  "code": "VMQ 710-son (2024)",
+  "orig": "VMQ 710",
+  "title": "Vazirlar Mahkamasining 28.10.2024 yildagi 710-son qarori",
+  "cats": [
+   "qonun"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/vmq-710-2024.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
+ },
+ {
+  "id": "amaldagi-standartlar",
+  "code": "Roʻyxat",
+  "orig": "—",
+  "title": "Умумий фойдаланувдаги автомобиль йўлларига тегишли амалдаги ШНҚ, ҚР ва стандартлар рўйхати",
+  "cats": [
+   "yollar",
+   "qonun"
+  ],
+  "links": [
+   [
+    "PDF yuklab olish",
+    "fayllar/amaldagi-standartlar.pdf",
+    1
+   ]
+  ],
+  "src": "tg"
  }
 ]

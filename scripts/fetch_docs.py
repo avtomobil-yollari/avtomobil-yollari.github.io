@@ -97,9 +97,10 @@ def main():
         own = []
         if os.path.exists(os.path.join(D, d["id"] + ".pdf")): own.append(["PDF yuklab olish", "docs/" + d["id"] + ".pdf", 1])
         if os.path.exists(os.path.join(D, d["id"] + ".html")): own.append(["Toʻliq matn (saytda)", "docs/" + d["id"] + ".html", 1])
-        rest = [l for l in d["links"] if not l[1].startswith("docs/")]
-        if own: rest = [[l[0], l[1], 0] for l in rest]
-        d["links"] = own + rest
+        tg = [l for l in d["links"] if l[1].startswith("fayllar/")]
+        rest = [l for l in d["links"] if not l[1].startswith(("docs/", "fayllar/"))]
+        if own or tg: rest = [[l[0], l[1], 0] for l in rest]
+        d["links"] = tg + own + rest
     json.dump(docs, open(os.path.join(ROOT, "data/docs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(report, open(os.path.join(D, "report.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(json.dumps(report, ensure_ascii=False, indent=1)[:6000])

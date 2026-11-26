@@ -2,7 +2,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const BASE = window.SITE_BASE || "";
-const VER = "202611262045";
+const VER = "202611262130";
 const D = {};
 async function load(n) {
   if (!D[n]) D[n] = await fetch(`${BASE}data/${n}.json?v=${VER}`).then(r => r.json()).catch(() => null);
