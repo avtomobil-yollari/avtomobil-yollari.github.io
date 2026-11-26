@@ -994,5 +994,70 @@
   "cats": [
    "tashkil"
   ]
+ },
+ {
+  "id": "şnk-3-06-06-07",
+  "code": "ŞNK 3.06.06-07",
+  "orig": "ШНК 3.06.06-07",
+  "title": "Аэродромы",
+  "cats": [
+   "aerodrom"
+  ],
+  "links": [
+   [
+    "Qurilish reglamentlari portali",
+    "https://mc.uz/oz/documents/texnik-reglamentlar",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "qmq-3-06-01-19",
+  "code": "QMQ 3.06.01-19",
+  "orig": "КМК 3.06.01-19",
+  "title": "Железные дороги. Организация, производство и приемка работ",
+  "cats": [
+   "temir"
+  ],
+  "links": [
+   [
+    "Qurilish reglamentlari portali",
+    "https://mc.uz/oz/documents/texnik-reglamentlar",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "qmq-3-06-02-97",
+  "code": "QMQ 3.06.02-97",
+  "orig": "КМК 3.06.02-97",
+  "title": "Правила производства и приемки работ. Трамвайные пути",
+  "cats": [
+   "shahar"
+  ],
+  "links": [
+   [
+    "Qurilish reglamentlari portali",
+    "https://mc.uz/oz/documents/texnik-reglamentlar",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "şnk-4-02-32-07",
+  "code": "ŞNK 4.02.32-07",
+  "orig": "ШНК 4.02.32-07",
+  "title": "Трамвайные пути",
+  "cats": [
+   "shahar",
+   "smeta"
+  ],
+  "links": [
+   [
+    "PDF — rasmiy",
+    "https://mc.uz/uploads/mcuz_91256817139487.pdf",
+    1
+   ]
+  ]
  }
 ]
