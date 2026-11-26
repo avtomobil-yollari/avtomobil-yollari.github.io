@@ -61,6 +61,7 @@ def lex(docid, url):
         e.attrs = keep
     for e in c.find_all(["span", "font"]): e.unwrap()
     html = re.sub(r"\n{3,}", "\n\n", str(c))
+    html = re.sub(r"<div>(<div>)?Ҳужжатга таклиф юбориш[^<]*</div>(</div>)?", "", html)
     title = (soup.title.string or docid).strip() if soup.title else docid
     open(os.path.join(D, docid + ".html"), "w", encoding="utf-8").write(CSS_HEAD.format(t=title, id=docid) + html + CSS_FOOT)
     return len(html)
