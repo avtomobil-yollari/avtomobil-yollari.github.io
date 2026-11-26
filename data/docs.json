@@ -1,10 +1,8 @@
 [
  {
   "id": "shnq-2-05-02-23",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.05.02-23",
-  "title": "Avtomobil yo'llari. Loyihalash talablari",
-  "lang": "uz",
+  "code": "ŞNQ 2.05.02-23",
+  "title": "Автомобиль йўллари. Лойиҳалаш талаблари",
   "links": [
    [
     "PDF — rasmiy",
@@ -24,28 +22,32 @@
    "Hisobiy o'q yuki: I–II toifa — 130 kN; III–V — 100 kN",
    "12 bob: yo'l poyi, yo'l to'shamalari, kesishmalar, ko'priklar va quvurlar, harakat xavfsizligi va boshq."
   ],
-  "meta": "Vazir buyrug'i 23.08.2024, 01/2-61-son · lex.uz'da kuchga kirish sanasi 14.10.2024"
+  "meta": "Vazir buyrug'i 23.08.2024, 01/2-61-son · lex.uz'da kuchga kirish sanasi 14.10.2024",
+  "orig": "ШНҚ 2.05.02-23",
+  "cats": [
+   "yollar"
+  ]
  },
  {
   "id": "shnq-2-05-01-23",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.05.01-23",
-  "title": "Temir yo'llar. Loyihalash talablari",
-  "lang": "uz",
+  "code": "ŞNQ 2.05.01-23",
+  "title": "Темир йўллар. Лойиҳалаш талаблари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_12548685977524.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.05.01-23",
+  "cats": [
+   "temir"
   ]
  },
  {
   "id": "shnq-2-05-03-22",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNK 2.05.03-22",
-  "title": "Ko'priklar va quvurlar",
-  "lang": "uz",
+  "code": "ŞNK 2.05.03-22",
+  "title": "Кўприклар ва қувурлар",
   "links": [
    [
     "PDF — rasmiy",
@@ -58,98 +60,114 @@
     0
    ]
   ],
-  "meta": "Qo'shimchalar: 23.01.2024, 17-son"
+  "meta": "Qo'shimchalar: 23.01.2024, 17-son",
+  "orig": "ШНК 2.05.03-22",
+  "cats": [
+   "kopriklar",
+   "otkazgichlar"
+  ]
  },
  {
   "id": "shnk-2-05-03-22-qo-shimcha-2024",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNK 2.05.03-22 (qo'shimcha, 2024)",
-  "title": "Ko'priklar va quvurlar — 23.01.2024 dagi qo'shimcha",
-  "lang": "uz",
+  "code": "ŞNK 2.05.03-22 (qöşimça, 2024)",
+  "title": "Кўприклар ва қувурлар (23.01.2024 даги қўшимча)",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_3178750932321.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 2.05.03-22",
+  "cats": [
+   "kopriklar",
+   "otkazgichlar"
   ]
  },
  {
   "id": "shnq-2-05-04-21",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.05.04-21",
-  "title": "Metropolitenlar",
-  "lang": "uz",
+  "code": "ŞNQ 2.05.04-21",
+  "title": "Метрополитенлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_31712383609426.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.05.04-21",
+  "cats": [
+   "tunnellar"
   ]
  },
  {
   "id": "shnq-2-05-05-24",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.05.05-24",
-  "title": "Temir yo'l va avtomobil yo'llari tunnellari",
-  "lang": "uz",
+  "code": "ŞNQ 2.05.05-24",
+  "title": "Темир йўл ва автомобиль йўллари туннеллари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_92446032402266.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.05.05-24",
+  "cats": [
+   "tunnellar"
   ]
  },
  {
   "id": "qmq-2-05-08-97",
-  "cat": "Yo'l, ko'prik, tunnel",
   "code": "QMQ 2.05.08-97",
-  "title": "Aerodromlar",
-  "lang": "uz",
+  "title": "Аэродромлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_44841831662043.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.05.08-97",
+  "cats": [
+   "aerodrom"
   ]
  },
  {
   "id": "shnq-2-05-09-22",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.05.09-22",
-  "title": "Tramvay va trolleybus yo'llari",
-  "lang": "uz",
+  "code": "ŞNQ 2.05.09-22",
+  "title": "Трамвай ва троллейбус йўллари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_8142898983041.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.05.09-22",
+  "cats": [
+   "shahar"
   ]
  },
  {
   "id": "shnq-2-07-01-23",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.07.01-23",
-  "title": "Aholi punktlari hududlarini rivojlantirish va qurishni shaharsozlik jihatidan rejalashtirish",
-  "lang": "uz",
+  "code": "ŞNQ 2.07.01-23",
+  "title": "Аҳоли пунктларининг ҳудудларини ривожлантириш ва қуришни шаҳарсозлик жиҳатидан режалаштириш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_5529673272344.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.07.01-23",
+  "cats": [
+   "shahar"
   ]
  },
  {
   "id": "shnq-2-07-06-24",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.07.06-24",
-  "title": "Shahar ko'cha-yo'llari. Loyihalash talablari",
-  "lang": "uz",
+  "code": "ŞNQ 2.07.06-24",
+  "title": "Шаҳар кўча-йўллари. Лойиҳалаш талаблари",
   "links": [
    [
     "PDF — rasmiy",
@@ -162,641 +180,743 @@
     0
    ]
   ],
-  "meta": "Tasdiqlash buyrug'i: 25.06.2024, 01/2-23-son"
+  "meta": "Tasdiqlash buyrug'i: 25.06.2024, 01/2-23-son",
+  "orig": "ШНҚ 2.07.06-24",
+  "cats": [
+   "shahar"
+  ]
  },
  {
   "id": "shnq-2-07-06-24-2-qism",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.07.06-24 (2-qism)",
-  "title": "Shahar ko'cha-yo'llari. Piyoda mintaqalari",
-  "lang": "uz",
+  "code": "ŞNQ 2.07.06-24 (2-qism)",
+  "title": "Шаҳар кўча-йўллари. Пиёда минтақалари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_1540614254836.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.07.06-24",
+  "cats": [
+   "shahar"
   ]
  },
  {
   "id": "shnq-2-07-06-24-3-qism",
-  "cat": "Yo'l, ko'prik, tunnel",
-  "code": "ShNQ 2.07.06-24 (3-qism)",
-  "title": "Shahar ko'cha yo'llari. Harakat xavfsizligi",
-  "lang": "uz",
+  "code": "ŞNQ 2.07.06-24 (3-qism)",
+  "title": "Шаҳар кўча йўллари. Ҳаракат хавфсизлиги",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_613431922165.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.07.06-24",
+  "cats": [
+   "shahar"
   ]
  },
  {
   "id": "shnk-2-01-01-22",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNK 2.01.01-22",
-  "title": "Loyihalash uchun iqlimiy va fizikaviy-geologik ma'lumotlar",
-  "lang": "uz",
+  "code": "ŞNK 2.01.01-22",
+  "title": "Лойиҳалаш учун иқлимий ва физикавий-геологик маълумотлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_906110586882.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 2.01.01-22",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "qmq-2-01-03-19",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.01.03-19",
   "title": "Строительство в сейсмических районах",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_38221286112271.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.01.03-19",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "shnq-2-01-20-24",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNQ 2.01.20-24",
-  "title": "Seysmik hududlarda transport inshootlari qurilishi",
-  "lang": "uz",
+  "code": "ŞNQ 2.01.20-24",
+  "title": "Сейсмик ҳудудларда транспорт иншоотлари қурилиши",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_8697454765358.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.01.20-24",
+  "cats": [
+   "otkazgichlar",
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-2-01-07-96",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.01.07-96",
-  "title": "Yuklar va ta'sirlar",
-  "lang": "uz",
+  "title": "Нагрузки и воздействия / Юклар ва таъсирлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_57689797333384.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.01.07-96",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-2-01-09-19",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.01.09-19",
-  "title": "Cho'kuvchan va o'ta cho'kuvchan gruntli hududlarda quriladigan bino va inshootlar",
-  "lang": "uz",
+  "title": "Чўкувчан ва ўта чўкувчан грунтли ҳудудларда қуриладиган бино ва иншоотлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_0281688188136.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.01.09-19",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-2-01-14-98",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.01.14-98",
-  "title": "Hisobiy gidrologik tavsiflarni aniqlash",
-  "lang": "uz",
+  "title": "Ҳисобий гидрологик тавсифларни аниқлаш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_55406527238873.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.01.14-98",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnq-2-06-15-21",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNQ 2.06.15-21",
-  "title": "Hududlarni suv toshqini va suv bosishidan muhandislik himoyalash",
-  "lang": "uz",
+  "code": "ŞNQ 2.06.15-21",
+  "title": "Ҳудудларни сув тошқини ва сув босишидан муҳандислик ҳимоялаш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_45452219699326.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.06.15-21",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-2-02-01-19",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNK 2.02.01-19",
-  "title": "Osnovaniya zdaniy i soorujeniy",
-  "lang": "uz",
+  "code": "ŞNK 2.02.01-19",
+  "title": "Основания зданий и сооружений",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_29157524126570.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 2.02.01-19",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "shnq-2-02-03-21",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNQ 2.02.03-21",
-  "title": "Qoziqli poydevorlar",
-  "lang": "uz",
+  "code": "ŞNQ 2.02.03-21",
+  "title": "Қозиқли пойдеворлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_62157118243879.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.02.03-21",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "shnq-2-03-01-24",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNQ 2.03.01-24",
-  "title": "Beton va temir-beton konstruktsiyalar",
-  "lang": "uz",
+  "code": "ŞNQ 2.03.01-24",
+  "title": "Бетон ва темир-бетон конструкциялар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_58477596287859.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.03.01-24",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "shnq-2-03-05-23",
-  "cat": "Loyihalash asoslari",
-  "code": "ShNQ 2.03.05-23",
-  "title": "Po'lat konstruktsiyalar. Loyihalash me'yorlari",
-  "lang": "uz",
+  "code": "ŞNQ 2.03.05-23",
+  "title": "Пўлат конструкциялар. Лойиҳалаш меъёрлари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_2499650643917.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 2.03.05-23",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-2-03-11-96",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.03.11-96",
-  "title": "Qurilish konstruktsiyalarini korroziyadan himoya qilish",
-  "lang": "uz",
+  "title": "Қурилиш конструкцияларини коррозиядан ҳимоя қилиш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_21206413281013.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.03.11-96",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-2-03-14-18",
-  "cat": "Loyihalash asoslari",
   "code": "QMQ 2.03.14-18",
-  "title": "Kompozit armatura",
-  "lang": "uz",
+  "title": "Композит арматура",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_4058376193253.pdf",
     1
    ]
+  ],
+  "orig": "КМК 2.03.14-18",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "shnk-1-02-07-19",
-  "cat": "Muhandislik qidiruvlari",
-  "code": "ShNK 1.02.07-19",
-  "title": "Qurilish uchun muhandislik-texnik izlanishlar. Asosiy qoidalar",
-  "lang": "uz",
+  "code": "ŞNK 1.02.07-19",
+  "title": "Қурилиш учун муҳандислик-техник изланишлар. Асосий қоидалар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_36499716784077.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.02.07-19",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-1-02-08-19",
-  "cat": "Muhandislik qidiruvlari",
-  "code": "ShNK 1.02.08-19",
-  "title": "Qurilish uchun muhandislik-geodezik qidiruvlar. Qoidalar to'plami",
-  "lang": "uz",
+  "code": "ŞNK 1.02.08-19",
+  "title": "Қурилиш учун муҳандислик-геодезик қидирувлар. Қоидалар тўплами",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_38201731707277.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.02.08-19",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnq-1-02-09-21",
-  "cat": "Muhandislik qidiruvlari",
-  "code": "ShNQ 1.02.09-21",
-  "title": "Qurilish uchun muhandislik geologiya izlanishlari",
-  "lang": "uz",
+  "code": "ŞNQ 1.02.09-21",
+  "title": "Қурилиш учун муҳандислик геология изланишлари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_11419495135640.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 1.02.09-21",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-1-02-10-23",
-  "cat": "Muhandislik qidiruvlari",
-  "code": "ShNK 1.02.10-23",
-  "title": "Qurilish uchun muhandislik gidrometeorologiya izlanishlari. Qoidalar to'plami",
-  "lang": "uz",
+  "code": "ŞNK 1.02.10-23",
+  "title": "Қурилиш учун муҳандислик гидрометеорология изланишлари. Қоидалар тўплами",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_6557439091158.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.02.10-23",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-1-02-22-19",
-  "cat": "Muhandislik qidiruvlari",
-  "code": "ShNK 1.02.22-19",
-  "title": "Uchuvchisiz uchish apparatlari (UUA) yordamida aerofototopografik s'yomka texnologiyasi",
-  "lang": "uz",
+  "code": "ŞNK 1.02.22-19",
+  "title": "Учувчисиз учиш аппаратлари (УУА) ёрдамида аэрофототопографик съёмка технологияси",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_66814872641580.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.02.22-19",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-3-01-01-22",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.01.01-22",
-  "title": "Qurilishda ishlab chiqarishni tashkil qilish",
-  "lang": "uz",
+  "code": "ŞNK 3.01.01-22",
+  "title": "Қурилишда ишлаб чиқаришни ташкил қилиш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_56216353799793.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 3.01.01-22",
+  "cats": [
+   "tashkil"
   ]
  },
  {
   "id": "shnk-3-01-02-23",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.01.02-23",
-  "title": "Qurilishda xavfsizlik texnikasi",
-  "lang": "uz",
+  "code": "ŞNK 3.01.02-23",
+  "title": "Қурилишда хавфсизлик техникаси",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_724970043949.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 3.01.02-23",
+  "cats": [
+   "tashkil"
   ]
  },
  {
   "id": "shnq-3-01-03-24",
-  "cat": "Qurilish ishlari",
-  "code": "ShNQ 3.01.03-24",
-  "title": "Qurilishda geodeziya ishlari",
-  "lang": "uz",
+  "code": "ŞNQ 3.01.03-24",
+  "title": "Қурилишда геодезия ишлари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_3645832537971.pdf",
     1
    ]
+  ],
+  "orig": "ШНҚ 3.01.03-24",
+  "cats": [
+   "qidiruv"
   ]
  },
  {
   "id": "shnk-3-01-04-19",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.01.04-19",
-  "title": "Qurilishi tugallangan ob'ektlarni foydalanishga qabul qilish. Asosiy holatlar",
-  "lang": "uz",
+  "code": "ŞNK 3.01.04-19",
+  "title": "Қурилиши тугалланган обектларни фойдаланишга қабул қилиш. Асосий холатлар",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_9035279942583.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 3.01.04-19",
+  "cats": [
+   "tashkil"
   ]
  },
  {
   "id": "shnk-3-06-07-23",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.06.07-23",
-  "title": "Ko'priklar va quvurlar. Tekshirish, sinash va diagnostika qilish qoidalari",
-  "lang": "uz",
+  "code": "ŞNK 3.06.07-23",
+  "title": "Кўприклар ва қувурлар. Текшириш, синаш ва диагностика қилиш қоидалари",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_91857022384671.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 3.06.07-23",
+  "cats": [
+   "kopriklar",
+   "otkazgichlar"
   ]
  },
  {
   "id": "shnk-3-06-03-08",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.06.03-08",
-  "title": "Avtomobil yo'llari (ishlarni bajarish va qabul qilish)",
-  "lang": "uz",
+  "code": "ŞNK 3.06.03-08",
+  "title": "Автомобил йўллари",
   "links": [
    [
     "Qurilish reglamentlari portali",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     1
    ]
+  ],
+  "orig": "ШНК 3.06.03-08",
+  "cats": [
+   "yollar"
   ]
  },
  {
   "id": "shnk-3-06-04-14",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.06.04-14",
-  "title": "Мосты и трубы (производство и приемка работ)",
-  "lang": "ru",
+  "code": "ŞNK 3.06.04-14",
+  "title": "Мосты и трубы",
   "links": [
    [
     "Qurilish reglamentlari portali",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     1
    ]
+  ],
+  "orig": "ШНК 3.06.04-14",
+  "cats": [
+   "kopriklar",
+   "otkazgichlar"
   ]
  },
  {
   "id": "shnk-3-02-01-19",
-  "cat": "Qurilish ishlari",
-  "code": "ShNK 3.02.01-19",
+  "code": "ŞNK 3.02.01-19",
   "title": "Земляные сооружения, основания и фундаменты",
-  "lang": "ru",
   "links": [
    [
     "Qurilish reglamentlari portali",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     1
    ]
+  ],
+  "orig": "ШНК 3.02.01-19",
+  "cats": [
+   "konstruksiya"
   ]
  },
  {
   "id": "qmq-3-06-05-98",
-  "cat": "Qurilish ishlari",
   "code": "QMQ 3.06.05-98",
-  "title": "Тоннели. Производство и приемка работ",
-  "lang": "ru",
+  "title": "Тоннели железнодорожные, автодорожные, гидротехнические. Метрополитены",
   "links": [
    [
     "Qurilish reglamentlari portali",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     1
    ]
+  ],
+  "orig": "КМК 3.06.05-98",
+  "cats": [
+   "tunnellar"
   ]
  },
  {
   "id": "qmq-3-01-05-99",
-  "cat": "Qurilish ishlari",
   "code": "QMQ 3.01.05-99",
-  "title": "Благоустройство территорий",
-  "lang": "ru",
+  "title": "Правила производства и приемки работ. Благоустройство территорий",
   "links": [
    [
     "Qurilish reglamentlari portali",
     "https://mc.uz/oz/documents/texnik-reglamentlar",
     1
    ]
+  ],
+  "orig": "КМК 3.01.05-99",
+  "cats": [
+   "shahar"
   ]
  },
  {
   "id": "shnk-4-01-01-20",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.01.01-20",
-  "title": "Qurilishda narx shakllantirish uchun smeta-normativ hujjatlar tizimi",
-  "lang": "uz",
+  "code": "ŞNK 4.01.01-20",
+  "title": "Қурилишда нарх шакллантириш учун смета норматив-ҳужжатлар тизими",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_17743171857613.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.01.01-20",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-00-20",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.00-20",
-  "title": "Resurs elementli smeta normalarini ishlab chiqish va tatbiq etish bo'yicha umumiy nizom",
-  "lang": "uz",
+  "code": "ŞNK 4.02.00-20",
+  "title": "Қурилиш ишларига ресурс элементли смета нормаларини ишлаб чиқиш ва тадбиқ этиш бўйича умумий низом",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_24689269917761.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.00-20",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-01-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.01-04",
+  "code": "ŞNK 4.02.01-04",
   "title": "Земляные работы",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_36434973287513.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.01-04",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-05-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.05-04",
+  "code": "ŞNK 4.02.05-04",
   "title": "Свайные работы. Опускные колодцы. Закрепление грунтов",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_1646860244278.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.05-04",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-06-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.06-04",
+  "code": "ŞNK 4.02.06-04",
   "title": "Бетонные и железобетонные конструкции монолитные",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_40273843723092.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.06-04",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-27-05",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.27-05",
+  "code": "ŞNK 4.02.27-05",
   "title": "Автомобильные дороги",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_48925257294765.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.27-05",
+  "cats": [
+   "yollar",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-28-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.28-04",
+  "code": "ŞNK 4.02.28-04",
   "title": "Железные дороги",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_5536777477580.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.28-04",
+  "cats": [
+   "temir",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-29-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.29-04",
+  "code": "ŞNK 4.02.29-04",
   "title": "Тоннели и метрополитены",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_7980868731268.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.29-04",
+  "cats": [
+   "tunnellar",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-30-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.30-04",
+  "code": "ŞNK 4.02.30-04",
   "title": "Мосты и трубы",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_75757706824.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.30-04",
+  "cats": [
+   "kopriklar",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-31-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.31-04",
+  "code": "ŞNK 4.02.31-04",
   "title": "Аэродромы",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_296043962036.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.31-04",
+  "cats": [
+   "aerodrom",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-02-68-07",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.02.68-07",
+  "code": "ŞNK 4.02.68-07",
   "title": "Благоустройство. Ремонтно-строительные работы",
-  "lang": "ru",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_71784951293846.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.02.68-07",
+  "cats": [
+   "shahar",
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-03-01-04",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.03.01-04",
-  "title": "Сметные ресурсные нормы на эксплуатацию строительных машин",
-  "lang": "ru",
+  "code": "ŞNK 4.03.01-04",
+  "title": "Сборник сметных ресурсных норм и расценок на эксплуатацию строительных машин",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_4336085329389.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.03.01-04",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-04-06-14",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.04.06-14",
-  "title": "Ресурсные сметные нормы на перевозку грузов для строительства",
-  "lang": "ru",
+  "code": "ŞNK 4.04.06-14",
+  "title": "Сборник ресурсных сметных норм на перевозку грузов для строительства",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_66552798435882.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.04.06-14",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-4-07-01-19",
-  "cat": "Smeta normalari",
-  "code": "ShNK 4.07.01-19",
-  "title": "Qishda bajariladigan qurilish ishlari sarfiga qo'shimcha smeta normalari",
-  "lang": "uz",
+  "code": "ŞNK 4.07.01-19",
+  "title": "Қиш пайтида бажариладиган қурилиш-монтаж ва қурилиш-таъмирлаш ишлари сарфига қўшимча смета нормалари тўплами",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_576477694279.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 4.07.01-19",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "shnk-5-01-23-08",
-  "cat": "Smeta normalari",
-  "code": "ShNK 5.01.23-08",
-  "title": "Типовые нормы расхода цемента для бетонов и железобетонных изделий",
-  "lang": "ru",
+  "code": "ŞNK 5.01.23-08",
+  "title": "Типовые нормы расхода цемента для приготовления бетонов сборных и монолитных бетонных, железобетонных изделий и конструкций",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_9949224562674.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 5.01.23-08",
+  "cats": [
+   "smeta"
   ]
  },
  {
   "id": "o-rq-117",
-  "cat": "Qonun va qarorlar",
   "code": "O'RQ-117",
   "title": "Avtomobil yo'llari to'g'risida",
   "meta": "02.10.2007",
@@ -806,11 +926,13 @@
     "https://lex.uz/docs/1254490",
     1
    ]
+  ],
+  "cats": [
+   "qonun"
   ]
  },
  {
   "id": "vmq-901-son",
-  "cat": "Qonun va qarorlar",
   "code": "VMQ 901-son",
   "title": "Avtomobil yo'llarini qurish, rekonstruksiya qilish, ta'mirlash va ulardan foydalanish ishlarini tashkil etish chora-tadbirlari",
   "meta": "30.12.2024",
@@ -820,11 +942,13 @@
     "https://lex.uz/docs/7309816",
     1
    ]
+  ],
+  "cats": [
+   "qonun"
   ]
  },
  {
   "id": "3904-son",
-  "cat": "Qonun va qarorlar",
   "code": "3904-son",
   "title": "Avtomobil yo'llarini qurish, rekonstruksiya qilish va ta'mirlashda laboratoriya sinovlarini amalga oshirish to'g'risidagi nizom",
   "meta": "18.07.2026",
@@ -834,34 +958,41 @@
     "https://lex.uz/docs/-8340873",
     1
    ]
+  ],
+  "cats": [
+   "qonun"
   ]
  },
  {
   "id": "shnk-1-01-01-09",
-  "cat": "Umumiy",
-  "code": "ShNK 1.01.01-09",
-  "title": "Qurilish sohasidagi normativ hujjatlar tizimi",
-  "lang": "uz",
+  "code": "ŞNK 1.01.01-09",
+  "title": "Қурилиш соҳасидаги норматив ҳужжатлар тизими",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_41717276735831.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.01.01-09",
+  "cats": [
+   "tashkil"
   ]
  },
  {
   "id": "shnk-1-04-03-23",
-  "cat": "Umumiy",
-  "code": "ShNK 1.04.03-23",
-  "title": "Bino va inshootlarni qurish, rekonstruktsiya qilish, ta'mirlash va ularga texnik xizmat ko'rsatishni tashkil etish",
-  "lang": "uz",
+  "code": "ŞNK 1.04.03-23",
+  "title": "Бино ва иншоотларни қуриш, реконструкция қилиш, таъмирлаш ва уларга техник хизмат кўрсатишни ташкил этиш",
   "links": [
    [
     "PDF — rasmiy",
     "https://mc.uz/uploads/mcuz_18153048553429.pdf",
     1
    ]
+  ],
+  "orig": "ШНК 1.04.03-23",
+  "cats": [
+   "tashkil"
   ]
  }
 ]

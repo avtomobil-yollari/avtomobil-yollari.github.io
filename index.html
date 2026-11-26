@@ -64,6 +64,23 @@ section.block{padding:72px 0 10px}
 .grid{display:grid;gap:16px}
 .g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
 @media(max-width:980px){.g3{grid-template-columns:repeat(2,1fr)}}
+/* Yo'nalish plitkalari */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tiles.sm{grid-template-columns:repeat(6,1fr);gap:10px}
+@media(max-width:1100px){.tiles.sm{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:900px){.tiles{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.tiles,.tiles.sm{grid-template-columns:repeat(2,1fr);gap:10px}}
+.tile{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;min-height:170px;padding:16px;border-radius:18px;text-decoration:none;background-size:cover;background-position:center;border:1px solid var(--line);overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}
+.tiles.sm .tile{min-height:112px;padding:12px;border-radius:14px}
+.tile:hover{transform:translateY(-3px);border-color:var(--line2);box-shadow:var(--sh)}
+.tile.on{border-color:var(--yel);box-shadow:0 0 0 2px var(--yel)}
+.tile .tic{position:absolute;top:14px;left:14px;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--yel);color:var(--bg)}
+.tiles.sm .tile .tic{width:32px;height:32px;top:10px;left:10px;border-radius:10px}
+.tiles.sm .tile .tic svg{width:17px;height:17px}
+.tile b{font-size:17px;font-weight:800;line-height:1.2}
+.tiles.sm .tile b{font-size:14px}
+.tile small{color:#c3d0e4;font-size:12.5px}
+.t.raw{font-family:Manrope,system-ui,sans-serif}
 @media(max-width:640px){.g3,.g2{grid-template-columns:1fr}}
 .card{background:linear-gradient(180deg,rgba(20,36,66,.8),rgba(12,24,46,.8));border:1px solid var(--line);border-radius:var(--r);padding:22px;position:relative;transition:border-color .25s,transform .25s,box-shadow .25s}
 a.card{text-decoration:none;display:block}

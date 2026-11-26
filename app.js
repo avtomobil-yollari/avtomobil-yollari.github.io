@@ -17,11 +17,11 @@ const SKIP = /(https?:\/\/\S+|t\.me\/\S+|@\w+|#\w+|[\w.-]+\.(?:uz|io|com|org|ru)
 const yangi = t => t ? t.split(SKIP).map((p, i) => i % 2 ? p : RULES.reduce((a, [rx, r]) => a.replace(rx, r), p)).join("") : t;
 const fold = t => String(t || "").toLowerCase().replace(/ö/g, "o").replace(/ğ/g, "g").replace(/ş/g, "sh").replace(/ç/g, "ch").replace(/['‘’ʻʼ`]/g, "");
 function convertDom(root = document.body) {
-  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement && /SCRIPT|STYLE/.test(n.parentElement.tagName) ? 2 : 1 });
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement && (/SCRIPT|STYLE/.test(n.parentElement.tagName) || n.parentElement.closest('.raw')) ? 2 : 1 });
   let n; while ((n = w.nextNode())) { const v = yangi(n.nodeValue); if (v !== n.nodeValue) n.nodeValue = v; }
   root.querySelectorAll && root.querySelectorAll("[placeholder],[title],[aria-label]").forEach(e => ["placeholder", "title", "aria-label"].forEach(a => e.hasAttribute(a) && e.setAttribute(a, yangi(e.getAttribute(a)))));
 }
-new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(x => x.nodeType === 1 ? convertDom(x) : x.nodeType === 3 && (x.nodeValue = yangi(x.nodeValue))))).observe(document.body, { childList: true, subtree: true });
+new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(x => x.nodeType === 1 ? (!x.closest('.raw') && convertDom(x)) : x.nodeType === 3 && !(x.parentElement && x.parentElement.closest('.raw')) && (x.nodeValue = yangi(x.nodeValue))))).observe(document.body, { childList: true, subtree: true });
 
 /* ---------- Ikonkalar (Lucide uslubida, chiziqli SVG) ---------- */
 const P = {
@@ -49,6 +49,11 @@ const P = {
   hard: '<path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z"/><path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5M4 15v-3a6 6 0 0 1 6-6M14 6a6 6 0 0 1 6 6v3"/>',
   coins: '<circle cx="8" cy="8" r="6"/><path d="M18.1 10.4A6 6 0 1 1 10.3 18M7 6h1v4M16.7 13.9l.7.7-2.8 2.8"/>',
   compass: '<circle cx="12" cy="12" r="10"/><path d="m16.2 7.8-2.1 6.4-6.4 2.1 2.1-6.4z"/>',
+  bridge: '<path d="M2 18h20M4 18v-6M20 18v-6M2 12h20"/><path d="M2 12c4-6 16-6 20 0M8 12v6M12 12v6M16 12v6"/>',
+  tunnel: '<path d="M2 21h20"/><path d="M4 21V11a8 8 0 0 1 16 0v10"/><path d="M9 21v-8a3 3 0 0 1 6 0v8"/>',
+  rail: '<path d="M8 2 6 22M16 2l2 20M7 6h10M6.5 11h11M6 16h12"/>',
+  plane: '<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>',
+  city: '<path d="M3 21h18M5 21V7l6-4v18M19 21V11l-8-4M9 9h.01M9 13h.01M9 17h.01M15 13h.01M15 17h.01"/>',
   play: '<path d="m6 3 14 9-14 9V3z"/>',
   image: '<rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/>',
 };
@@ -62,14 +67,28 @@ const IMG = { hero: 7381786, lib: 38751509, news: 32894132, posts: 4345863, calc
 const MONTHS = ["yanvar", "fevral", "mart", "aprel", "may", "iyun", "iyul", "avgust", "sentabr", "oktabr", "noyabr", "dekabr"];
 const fdate = iso => { const d = new Date(iso); return isNaN(d) ? "" : `${d.getDate()}-${MONTHS[d.getMonth()]}, ${d.getFullYear()}`; };
 const pageHead = (k, t, p, img) => `<section class="ph"><div class="bg" style="background-image:url('${px(img)}')"></div><div class="wrap"><span class="kicker">${k}</span><h1>${t}</h1><p>${p}</p></div></section>`;
-const CAT_ICON = { "Yo'l, ko'prik, tunnel": "road", "Loyihalash asoslari": "ruler", "Muhandislik qidiruvlari": "compass", "Qurilish ishlari": "hard", "Smeta normalari": "coins", "Qonun va qarorlar": "scale", "Umumiy": "layers" };
-const CAT_ORDER = ["Yo'l, ko'prik, tunnel", "Loyihalash asoslari", "Muhandislik qidiruvlari", "Qurilish ishlari", "Smeta normalari", "Qonun va qarorlar", "Umumiy"];
+const SECTIONS = [
+  ["yollar", "Avtomobil yo'llari", "road", 9906079],
+  ["kopriklar", "Ko'priklar", "bridge", 13185335],
+  ["otkazgichlar", "Yo'l o'tkazgichlar", "layers", 38751509],
+  ["tunnellar", "Tunnellar va metro", "tunnel", 783323],
+  ["temir", "Temir yo'llar", "rail", 25361617],
+  ["aerodrom", "Aerodromlar", "plane", 3892808],
+  ["shahar", "Shahar ko'chalari", "city", 16469994],
+  ["qidiruv", "Muhandislik qidiruvlari", "compass", 29560008],
+  ["konstruksiya", "Konstruksiya va poydevor", "hard", 17553507],
+  ["tashkil", "Qurilishni tashkil etish", "check", 7499043],
+  ["smeta", "Smeta normalari", "coins", 7381786],
+  ["qonun", "Qonun va qarorlar", "scale", 8356329],
+];
+const SEC = Object.fromEntries(SECTIONS.map(s => [s[0], s]));
+const secTile = (s, n, on) => `<a class="tile${on ? " on" : ""}" href="#/yonalish/${s[0]}" style="background-image:linear-gradient(180deg,rgba(5,11,22,.15),rgba(5,11,22,.92)),url('${px(s[3], 640)}')"><span class="tic">${I(s[2])}</span><b>${s[1]}</b><small>${n} ta hujjat</small></a>`;
 
 /* ---------- Bosh sahifa ---------- */
 async function home() {
   const [docs, news, posts] = await Promise.all([load("docs"), load("news"), load("posts")]);
   const PP = ((posts && posts.posts) || []).filter(p => p.text && p.text.length > 60);
-  const S = [["library", "Normativ kutubxona", `${docs ? docs.length : 60}+ ta ShNQ, QMQ va me'yoriy hujjat — rasmiy PDF bilan`, "kutubxona", IMG.lib],
+  const S = [["library", "Normativ kutubxona", `${docs ? docs.length : 60}+ ta ŞNQ, QMQ va me'yoriy hujjat — rasmiy PDF bilan`, "kutubxona", IMG.lib],
     ["calc", "Kalkulyatorlar", "Asfalt hajmi, yo'l toifasi, qiyalik, zichlash koeffitsienti", "kalkulyatorlar", IMG.calc],
     ["news", "Yangiliklar", "Normativ o'zgarishlar va dunyo yo'l qurilishi", "yangiliklar", IMG.news],
     ["megaphone", "Kanal postlari", "Telegram kanaldagi barcha postlar arxivi", "postlar", IMG.posts],
@@ -99,8 +118,8 @@ async function home() {
   </div></section>
 
   <section class="block"><div class="wrap">
-    <div class="sh"><div><h2>Ko'p so'raladigan hujjatlar</h2><p>Yo'l, ko'prik va tunnel normalari</p></div><a href="#/kutubxona">Barchasi ${I("arrow")}</a></div>
-    <div class="grid g3">${(docs || []).filter(d => d.cat === "Yo'l, ko'prik, tunnel").slice(0, 6).map(miniDoc).join("")}</div>
+    <div class="sh"><div><h2>Yo'nalishlar</h2><p>Normativ hujjatlar soha bo'yicha</p></div><a href="#/kutubxona">Barcha hujjatlar ${I("arrow")}</a></div>
+    <div class="tiles">${SECTIONS.map(s => secTile(s, (docs || []).filter(d => (d.cats || []).includes(s[0])).length)).join("")}</div>
   </div></section>
 
   <section class="band"><div class="bg" style="background-image:url('${px(IMG.band)}')"></div><div class="wrap">
@@ -118,7 +137,6 @@ async function home() {
     <div class="grid g3">${PP.slice(0, 3).map(postCard).join("")}</div>
   </div></section>` : ""}`;
 }
-const miniDoc = d => `<a class="card" href="#/kutubxona/${d.id}"><div class="row"><span class="pill">${I(CAT_ICON[d.cat] || "file")}${esc(d.cat)}</span></div><h3>${esc(d.code)}</h3><p>${esc(d.title)}</p><span class="go">Ochish ${I("arrow")}</span></a>`;
 
 /* ---------- Yangiliklar ---------- */
 function newsCard(n) {
@@ -166,8 +184,8 @@ async function postsPage() {
 /* ---------- Kutubxona ---------- */
 function docCard(d) {
   return `<article class="card doc" id="${d.id}">
-    <div class="row"><span class="pill">${I(CAT_ICON[d.cat] || "file")}${esc(d.cat)}</span>${d.lang === "ru" ? `<span class="pill b">ruscha</span>` : ""}</div>
-    <div class="code">${esc(d.code)}</div><div class="t">${esc(d.title)}</div>
+    <div class="row">${(d.cats || []).map(c => SEC[c] ? `<span class="pill">${I(SEC[c][2])}${SEC[c][1]}</span>` : "").join("")}</div>
+    <div class="code">${esc(d.code)}</div><div class="t raw">${esc(d.title)}</div>
     ${d.meta ? `<p class="note">${esc(d.meta)}</p>` : ""}
     ${d.facts ? `<ul class="facts">${d.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
     <div class="links">${d.links.map(l => `<a class="${l[2] ? "m" : ""}" href="${l[1]}" target="_blank" rel="noopener">${I(l[2] ? "file" : "ext")}${esc(l[0])}</a>`).join("")}
@@ -178,23 +196,24 @@ window.copyLink = (e, id) => {
   e.preventDefault(); const u = location.origin + location.pathname + "#/kutubxona/" + id; const s = e.currentTarget.querySelector("span");
   try { navigator.clipboard.writeText(u); s.textContent = "Nusxalandi"; setTimeout(() => s.textContent = "Havola", 1500); } catch (_) {}
 };
-async function libPage(sel) {
+async function libPage(sel, sec) {
   const docs = (await load("docs")) || [];
-  const cats = ["Hammasi", ...CAT_ORDER.filter(c => docs.some(d => d.cat === c))];
-  let cat = "Hammasi";
+  let cat = SEC[sec] ? sec : "all";
+  const title = SEC[cat] ? SEC[cat][1] : "Normativ hujjatlar";
+  const img = SEC[cat] ? SEC[cat][3] : IMG.lib;
   setTimeout(() => {
     const draw = () => { const s = $("#lq").value.toLowerCase().trim();
-      const f = docs.filter(d => (cat === "Hammasi" || d.cat === cat) && (!s || fold([d.code, d.title, d.meta, ...(d.facts || [])].join(" ")).includes(fold(s))));
+      const f = docs.filter(d => (cat === "all" || (d.cats || []).includes(cat)) && (!s || fold([d.code, d.orig, d.title, d.meta, ...(d.facts || [])].join(" ")).includes(fold(s))));
       $("#ll").innerHTML = f.length ? f.map(docCard).join("") : `<p class="empty">Hech narsa topilmadi.</p>`;
-      document.querySelectorAll("#lc .chip").forEach(c => c.classList.toggle("on", c.dataset.c === cat));
       if (sel) { const el = document.getElementById(sel); if (el) { el.classList.add("hl"); setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 60); } sel = null; } };
-    $("#lq").oninput = draw; document.querySelectorAll("#lc .chip").forEach(c => c.onclick = () => { cat = c.dataset.c; draw(); }); draw();
+    $("#lq").oninput = draw; draw();
   });
-  return pageHead("Normativ kutubxona", "Normativ hujjatlar", `${docs.length} ta hujjat: yo'l, ko'prik va tunnel normalari, qidiruv ishlari, qurilish va smeta normalari — rasmiy PDF bilan.`, IMG.lib) +
-    `<div class="wrap"><div class="tools"><div class="search">${I("search")}<input class="inp" id="lq" placeholder="Qidirish: 2.05.02, ko'prik, geodeziya, smeta..."></div></div>
-     <div class="chips" id="lc" style="margin-top:12px">${cats.map(c => `<button class="chip" data-c="${esc(c)}">${esc(c)}<small>${c === "Hammasi" ? docs.length : docs.filter(d => d.cat === c).length}</small></button>`).join("")}</div>
+  return pageHead(SEC[cat] ? "Yo'nalish" : "Normativ kutubxona", title, SEC[cat] ? `${docs.filter(d => (d.cats || []).includes(cat)).length} ta hujjat. Rasmiy PDF va amaldagi tahrirlar.` : `${docs.length} ta hujjat soha bo'yicha yo'nalishlarga ajratilgan — rasmiy PDF bilan.`, img) +
+    `<div class="wrap">
+     <div class="tiles sm" style="margin-top:26px">${[["all", "Barchasi", "library", IMG.lib]].concat(SECTIONS).map(s => s[0] === "all" ? `<a class="tile${cat === "all" ? " on" : ""}" href="#/kutubxona" style="background-image:linear-gradient(180deg,rgba(5,11,22,.15),rgba(5,11,22,.92)),url('${px(IMG.lib, 640)}')"><span class="tic">${I("library")}</span><b>Barchasi</b><small>${docs.length} ta hujjat</small></a>` : secTile(s, docs.filter(d => (d.cats || []).includes(s[0])).length, cat === s[0])).join("")}</div>
+     <div class="tools"><div class="search">${I("search")}<input class="inp" id="lq" placeholder="Qidirish: 2.05.02, ko'prik, geodeziya, smeta..."></div></div>
      <div class="grid g2" id="ll" style="margin-top:18px"></div>
-     <p class="note" style="margin-top:16px">Ba'zi mc.uz havolalarida brauzer sertifikat ogohlantirishini ko'rsatishi mumkin — «Davom etish» ni tanlang.</p></div>`;
+     <p class="note" style="margin-top:16px">Hujjat nomlari rasmiy ro'yxatdagi asl yozuvda berilgan. Ba'zi mc.uz havolalarida brauzer sertifikat ogohlantirishini ko'rsatishi mumkin — «Davom etish» ni tanlang.</p></div>`;
 }
 
 /* ---------- Kalkulyatorlar ---------- */
@@ -267,8 +286,8 @@ function aboutPage() {
 }
 
 /* ---------- Router ---------- */
-const ROUTES = { "": home, yangiliklar: newsPage, postlar: postsPage, kutubxona: libPage, kalkulyatorlar: calcPage, testlar: quizPage, lugat: glossPage, haqida: aboutPage };
-const TITLES = { yangiliklar: "Yangiliklar", postlar: "Postlar", kutubxona: "Normativlar", kalkulyatorlar: "Kalkulyatorlar", testlar: "Testlar", lugat: "Lug'at", haqida: "Biz haqimizda" };
+const ROUTES = { "": home, yonalish: (sub) => libPage(null, sub), yangiliklar: newsPage, postlar: postsPage, kutubxona: (sub) => libPage(sub), kalkulyatorlar: calcPage, testlar: quizPage, lugat: glossPage, haqida: aboutPage };
+const TITLES = { yonalish: "Yo'nalish", yangiliklar: "Yangiliklar", postlar: "Postlar", kutubxona: "Normativlar", kalkulyatorlar: "Kalkulyatorlar", testlar: "Testlar", lugat: "Lug'at", haqida: "Biz haqimizda" };
 async function route() {
   let h = location.hash.replace(/^#\/?/, "");
   if (h && !h.includes("/") && !ROUTES[h]) h = "kutubxona/" + h;   // eski havolalar: #shnq-2-05-02-23
@@ -276,7 +295,7 @@ async function route() {
   const fn = ROUTES[r] || home;
   $("#app").innerHTML = await fn(sub);
   hydrateIcons();
-  document.querySelectorAll(".menu a").forEach(a => a.classList.toggle("on", a.dataset.r === (ROUTES[r] ? r : "")));
+  document.querySelectorAll(".menu a").forEach(a => a.classList.toggle("on", a.dataset.r === (r === "yonalish" ? "kutubxona" : ROUTES[r] ? r : "")));
   $("#menu").classList.remove("open");
   if (!sub) window.scrollTo(0, 0);
   document.title = yangi((TITLES[r] ? TITLES[r] + " — " : "") + "Avtomobil Yo'llari UZ");
